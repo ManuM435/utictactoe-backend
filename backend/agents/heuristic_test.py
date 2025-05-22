@@ -1,18 +1,18 @@
-# import numpy as np
-# import test_utils as utils
-# import random
-# from collections import defaultdict
-# import trueskill
-# import os
-# import sys
-# import time
-# from colorama import Style, Fore
+import numpy as np
+import test_utils as utils
+import random
+from collections import defaultdict
+import trueskill
+import os
+import sys
+import time
+from colorama import Style, Fore
 
 # # Main Bots
 # from bots.randy import RandomAgent
 # from bots.monkey import MonkeyAgent
-# from bots.greedy import GreedyAgent
-# from bots.jardito import JardineritoAgent
+from bots.greedy import GreedyAgent
+from bots.jardito import JardineritoAgent
 # from bots.arthy import ArthyAgent
 # from bots.foofinder import FooFinderAgent
 
@@ -35,10 +35,10 @@
 # RandomAgent = RandomAgent()
 # MonkeyAgent = MonkeyAgent()
 # GardenerAgent = GardenerAgent()
-# JardineritoAgent = JardineritoAgent()
+JardineritoAgent = JardineritoAgent()
 # MaximilianoAgent = MaximilianoAgent()
 # TaylorAgent = TaylorAgent()
-# GreedyAgent = GreedyAgent()
+GreedyAgent = GreedyAgent()
 # IteroldAgent = IteroldAgent()
 # ItterinoAgent = ItterinoAgent()
 # TidyPodatorAgent = TidyPodatorAgent()

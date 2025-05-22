@@ -44,7 +44,7 @@ AGENT2.load()
 
 ROUNDS = 2
 GAMES = ROUNDS * 2
-BLIZZARD_MODE = True
+BLIZZARD_MODE = False
 BLIZZARDS_AMOUNT = 12
 
 agent1_name = str(AGENT1)
